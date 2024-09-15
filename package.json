@@ -1,0 +1,24 @@
+{
+  "name": "video_transcoding_pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"node dist/index\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.650.0",
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/fluent-ffmpeg": "^2.1.26",
+    "@types/node": "^22.5.4",
+    "tsc-watch": "^6.2.0"
+  }
+}
